@@ -1,5 +1,8 @@
 # giin_sns
 
+議員のSNSを表示するWebサービス
+
+
 ## Project setup
 ```
 npm install
