@@ -1,6 +1,6 @@
-# giin_sns
+# 議員SNS
 
-議員のSNSを表示するWebサービス
+議員SNSは、地方自治体議員が使っているSNSを確認できるサービスです！
 
 
 ## Project setup
