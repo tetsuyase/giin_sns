@@ -1,12 +1,13 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">東京都</router-link> |
-      <router-link to="/23wards">23区</router-link> |
-      <router-link to="/other">23区外</router-link>
+  <v-app>
+    <div id="app">
+      <div id="nav">
+        <router-link to="/">東京都</router-link> |
+        <router-link to="/23wards">23区</router-link> |
+      </div>
+      <router-view/>
     </div>
-    <router-view/>
-  </div>
+  </v-app>
 </template>
 
 <style lang="scss">
