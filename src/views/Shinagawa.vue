@@ -1,21 +1,23 @@
 <template>
     <div>
-        <v-card>{{items['wards_name']}}</v-card>
-        <v-row>
-            <v-col cols=3 v-for="(item,key) in items['data']" :key="key">
-                <v-card elevation="2" outlined tile height=150>
-                    <v-card-title>{{ item.giin_name }}</v-card-title>
+        <v-container>
+            <v-card>{{items['wards_name']}}</v-card>
+            <v-row>
+                <v-col sm=3 cols=12 v-for="(item,key) in items['data']" :key="key">
+                    <v-card elevation="2" outlined tile height=150>
+                        <v-card-title>{{ item.giin_name }}</v-card-title>
 
-                    <v-card-actions>
-                        <a target="_blank" :href="item.twitter_url">
-                            <v-btn color="primary">
-                                Twitter
-                            </v-btn>
-                        </a>
-                    </v-card-actions>
-                </v-card>
-            </v-col>
-        </v-row>
+                        <v-card-actions>
+                            <a target="_blank" :href="item.twitter_url">
+                                <v-btn color="primary">
+                                    Twitter
+                                </v-btn>
+                            </a>
+                        </v-card-actions>
+                    </v-card>
+                </v-col>
+            </v-row>
+        </v-container>
     </div>
 </template>
 

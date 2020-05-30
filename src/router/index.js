@@ -13,7 +13,7 @@ const routes = [
 		component: Tokyo
 	},
 	{
-		path: '/23wards',
+		path: '/wards',
 		name: '23wards',
 		component: Wards
 	},
