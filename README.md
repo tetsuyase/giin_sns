@@ -1,9 +1,9 @@
 # 議員SNS
 
-議員SNSは、地方自治体議員が使っているSNSを確認できるサービスです！
-
-[議員SNS](http://giinsns.com/)
-
+議員SNSは、地方自治体議員が使っているSNSを確認できるサービスです！  
+http://giinsns.com/
+  
+  
 現在は、品川区数名、東京都1名のTwitter情報のみですが、東京都と23区議員のTwitterとFaceBook情報を掲載する予定です。
 
 
